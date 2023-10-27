@@ -1,11 +1,34 @@
 package JAVA_OOP_05.constructor_Test;
 
 public class CreditCard {
-    public long cardNumber;
+    // Card usage
+    // Card payment
+    // Point accumulation
+
+    private long cardNumber;
     public String cardOwner;
 
-    //카드 사용
-    //카드 비용 지급
-    //포인트 적립
+    public long totalCardUsageAmount;
+    public long accumulatedPoints;
+
+    public void useCard(long usageAmount){
+        totalCardUsageAmount += usageAmount;
+    }
+    public void payCardBill(long paymentAmount){
+        totalCardUsageAmount -= paymentAmount;
+        givePoints(paymentAmount / 1000);
+    }
+    private void givePoints(long pointAmount){
+        accumulatedPoints += pointAmount;
+    }
+
+
+    //setter
+    public void setCardNumber(long cardNumber){
+        this.cardNumber = cardNumber;
+    }
+    public long getCardNumber(){
+        return cardNumber;
+    }
 
 }
