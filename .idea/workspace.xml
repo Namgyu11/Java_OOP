@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25da3ba5-7a62-4d92-a410-2a852fcdacc7" name="변경" comment="Constructor">
-      <change afterPath="$PROJECT_DIR$/src/JAVA_OOP_12/st_final/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA_OOP_12/st_final/CircleTest.java" afterDir="false" />
+    <list default="true" id="25da3ba5-7a62-4d92-a410-2a852fcdacc7" name="변경" comment="static_final">
+      <change afterPath="$PROJECT_DIR$/lib/mariadb-java-client-3.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAPA_PROG_01/pro05_01/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAPA_PROG_01/pro05_01/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAPA_PROG_01/pro05_01/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAPA_PROG_01/pro06/DbTestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAPA_PROG_01/pro06/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAPA_PROG_01/pro06/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA_OOP_05/constructor_Test/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_OOP_05/constructor_Test/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JAVA_OOP_05/constructor_Test/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_OOP_05/constructor_Test/CreditCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_OOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_OOP.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,33 +43,36 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hagaj/Desktop/냄규/Java_OOP/lib/mariadb-java-client-3.0.11.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;라이브러리&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;,
+      &quot;mariadb&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.CircleTest">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hagaj\Desktop\냄규\Java_OOP\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.DbTestMain">
     <configuration name="CircleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JAVA_OOP_12.st_final.CircleTest" />
       <module name="Java_OOP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JAVA_OOP_12.st_final.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditCard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JAVA_OOP_05.constructor_Test.CreditCard" />
-      <module name="Java_OOP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JAVA_OOP_05.constructor_Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +93,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DbTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAPA_PROG_01.pro06.DbTestMain" />
+      <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAPA_PROG_01.pro06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAPA_PROG_01.pro06.MemberService" />
+      <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAPA_PROG_01.pro06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JAPA_PROG_01.pro05_01.MemberTest" />
+      <module name="Java_OOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JAPA_PROG_01.pro05_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.DbTestMain" />
+        <item itemvalue="애플리케이션.MemberService" />
+        <item itemvalue="애플리케이션.MemberTest" />
         <item itemvalue="애플리케이션.CircleTest" />
         <item itemvalue="애플리케이션.CreditCardTest" />
-        <item itemvalue="애플리케이션.CreditCard" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +156,12 @@
       <workItem from="1698245700751" duration="2786000" />
       <workItem from="1698302677833" duration="4020000" />
       <workItem from="1698342264253" duration="670000" />
-      <workItem from="1698401327867" duration="2050000" />
+      <workItem from="1698401327867" duration="2668000" />
+      <workItem from="1698494978546" duration="607000" />
+      <workItem from="1698591329153" duration="1030000" />
+      <workItem from="1698593086796" duration="103000" />
+      <workItem from="1699007852893" duration="5250000" />
+      <workItem from="1699095580863" duration="4789000" />
     </task>
     <task id="LOCAL-00001" summary="Constructor">
       <created>1698245733765</created>
@@ -117,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698245733765</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="static_final">
+      <created>1698416645911</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698416645911</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor" />
+    <MESSAGE value="static_final" />
+    <option name="LAST_COMMIT_MESSAGE" value="static_final" />
   </component>
 </project>
